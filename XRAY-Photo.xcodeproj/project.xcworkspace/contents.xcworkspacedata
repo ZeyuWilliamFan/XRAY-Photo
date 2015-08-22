@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:XRAY-Photo.xcodeproj">
+      location = "self:/Users/WilliamF/Documents/HELLOMAC/HELLOMAC/XRAYPHOTO/XRAY-Photo.xcodeproj">
    </FileRef>
 </Workspace>

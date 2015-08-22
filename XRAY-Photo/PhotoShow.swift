@@ -7,19 +7,26 @@
 //
 
 import UIKit
+import CoreData
 
 class PhotoShow: UIViewController {
 
+    var managedObjectContext: NSManagedObjectContext!
+    
     @IBOutlet weak var ImageViewShowing: UIImageView!
     var imageShowing: UIImage?
     
     @IBAction func doneCancel() {
-        dismissViewControllerAnimated(true, completion: nil)
+
+       // dismissViewControllerAnimated(true, completion: nil)
+        self.navigationController?.popViewControllerAnimated(true)
+        //self.navigationController?.popToRootViewControllerAnimated(true)
     }
-   
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         ImageViewShowing.image = imageShowing
 
         // Do any additional setup after loading the view.
@@ -28,6 +35,14 @@ class PhotoShow: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "ToBodyLocation" {
+            let controller = segue.destinationViewController as! BodyLocationChooseViewController
+            controller.managedObjectContext = managedObjectContext
+            controller.image = imageShowing
+        }
     }
     
 

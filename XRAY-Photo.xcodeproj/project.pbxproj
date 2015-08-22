@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1537FDDE1B88372900EE6648 /* EditNotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1537FDDD1B88372900EE6648 /* EditNotesTableViewController.swift */; };
+		1545A5E71B6C7C9400921037 /* BodyLocationChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545A5E61B6C7C9400921037 /* BodyLocationChooseViewController.swift */; };
+		1565D6341B79B67600EA2EDF /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1565D6331B79B67600EA2EDF /* Functions.swift */; };
+		15751CCE1B7DA75700C3ADA2 /* GalleryNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15751CCD1B7DA75700C3ADA2 /* GalleryNavigation.swift */; };
+		15751CD01B7DE0BF00C3ADA2 /* XrayImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15751CCF1B7DE0BF00C3ADA2 /* XrayImageViewController.swift */; };
 		15ACD7791B63506B00B962B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ACD7781B63506B00B962B5 /* AppDelegate.swift */; };
-		15ACD77B1B63506B00B962B5 /* PhotoMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ACD77A1B63506B00B962B5 /* PhotoMain.swift */; };
 		15ACD77E1B63506B00B962B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15ACD77C1B63506B00B962B5 /* Main.storyboard */; };
 		15ACD7801B63506B00B962B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15ACD77F1B63506B00B962B5 /* Images.xcassets */; };
 		15ACD7831B63506B00B962B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15ACD7811B63506B00B962B5 /* LaunchScreen.xib */; };
-		15ACD78F1B63506B00B962B5 /* XRAY_PhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ACD78E1B63506B00B962B5 /* XRAY_PhotoTests.swift */; };
 		15ACD7991B63686700B962B5 /* PhotoShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ACD7981B63686700B962B5 /* PhotoShow.swift */; };
+		15AD92191B79ABE300D453DC /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AD92181B79ABE300D453DC /* PhotoCell.swift */; };
+		15B438F51B8598DB00E7AF02 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B438F41B8598DB00E7AF02 /* NotesViewController.swift */; };
+		15B4BDCA1B78A515004CF454 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B4BDC91B78A515004CF454 /* GalleryViewController.swift */; };
+		15C94D471B749367009F54BD /* PhotoMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C94D461B749367009F54BD /* PhotoMain.swift */; };
+		15C94D4A1B749CC7009F54BD /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15C94D481B749CC7009F54BD /* DataModel.xcdatamodeld */; };
+		15C94D4E1B749FFC009F54BD /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C94D4D1B749FFC009F54BD /* Photo.swift */; };
+		15F2A6651B7863B800D59FBC /* XRAY_PhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F2A6641B7863B800D59FBC /* XRAY_PhotoTests.swift */; };
+		15FDD71A1B6C83AC008A6E03 /* AddPhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FDD7191B6C83AC008A6E03 /* AddPhotoDetailViewController.swift */; };
+		15FDD71C1B6C8EFB008A6E03 /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FDD71B1B6C8EFB008A6E03 /* CategoryPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +39,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1537FDDD1B88372900EE6648 /* EditNotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditNotesTableViewController.swift; sourceTree = "<group>"; };
+		1545A5E61B6C7C9400921037 /* BodyLocationChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyLocationChooseViewController.swift; sourceTree = "<group>"; };
+		1565D6331B79B67600EA2EDF /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		15751CCD1B7DA75700C3ADA2 /* GalleryNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryNavigation.swift; sourceTree = "<group>"; };
+		15751CCF1B7DE0BF00C3ADA2 /* XrayImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XrayImageViewController.swift; sourceTree = "<group>"; };
 		15ACD7731B63506B00B962B5 /* XRAY-Photo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XRAY-Photo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15ACD7771B63506B00B962B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15ACD7781B63506B00B962B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15ACD77A1B63506B00B962B5 /* PhotoMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMain.swift; sourceTree = "<group>"; };
 		15ACD77D1B63506B00B962B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15ACD77F1B63506B00B962B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		15ACD7821B63506B00B962B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		15ACD7881B63506B00B962B5 /* XRAY-PhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XRAY-PhotoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15ACD78D1B63506B00B962B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15ACD78E1B63506B00B962B5 /* XRAY_PhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XRAY_PhotoTests.swift; sourceTree = "<group>"; };
 		15ACD7981B63686700B962B5 /* PhotoShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoShow.swift; sourceTree = "<group>"; };
+		15AD92181B79ABE300D453DC /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		15B438F41B8598DB00E7AF02 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		15B4BDC91B78A515004CF454 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		15C94D461B749367009F54BD /* PhotoMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoMain.swift; sourceTree = "<group>"; };
+		15C94D491B749CC7009F54BD /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		15C94D4D1B749FFC009F54BD /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		15F2A6641B7863B800D59FBC /* XRAY_PhotoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XRAY_PhotoTests.swift; sourceTree = "<group>"; };
+		15FDD7191B6C83AC008A6E03 /* AddPhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPhotoDetailViewController.swift; sourceTree = "<group>"; };
+		15FDD71B1B6C8EFB008A6E03 /* CategoryPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +85,7 @@
 		15ACD76A1B63506B00B962B5 = {
 			isa = PBXGroup;
 			children = (
+				15C94D4D1B749FFC009F54BD /* Photo.swift */,
 				15ACD7751B63506B00B962B5 /* XRAY-Photo */,
 				15ACD78B1B63506B00B962B5 /* XRAY-PhotoTests */,
 				15ACD7741B63506B00B962B5 /* Products */,
@@ -79,13 +104,24 @@
 		15ACD7751B63506B00B962B5 /* XRAY-Photo */ = {
 			isa = PBXGroup;
 			children = (
+				15FDD7191B6C83AC008A6E03 /* AddPhotoDetailViewController.swift */,
 				15ACD7781B63506B00B962B5 /* AppDelegate.swift */,
-				15ACD77A1B63506B00B962B5 /* PhotoMain.swift */,
-				15ACD77C1B63506B00B962B5 /* Main.storyboard */,
+				1545A5E61B6C7C9400921037 /* BodyLocationChooseViewController.swift */,
+				15FDD71B1B6C8EFB008A6E03 /* CategoryPickerViewController.swift */,
 				15ACD77F1B63506B00B962B5 /* Images.xcassets */,
 				15ACD7811B63506B00B962B5 /* LaunchScreen.xib */,
+				15C94D461B749367009F54BD /* PhotoMain.swift */,
 				15ACD7981B63686700B962B5 /* PhotoShow.swift */,
 				15ACD7761B63506B00B962B5 /* Supporting Files */,
+				15C94D481B749CC7009F54BD /* DataModel.xcdatamodeld */,
+				15B4BDC91B78A515004CF454 /* GalleryViewController.swift */,
+				15ACD77C1B63506B00B962B5 /* Main.storyboard */,
+				15AD92181B79ABE300D453DC /* PhotoCell.swift */,
+				1565D6331B79B67600EA2EDF /* Functions.swift */,
+				15751CCD1B7DA75700C3ADA2 /* GalleryNavigation.swift */,
+				15751CCF1B7DE0BF00C3ADA2 /* XrayImageViewController.swift */,
+				15B438F41B8598DB00E7AF02 /* NotesViewController.swift */,
+				1537FDDD1B88372900EE6648 /* EditNotesTableViewController.swift */,
 			);
 			path = "XRAY-Photo";
 			sourceTree = "<group>";
@@ -101,7 +137,7 @@
 		15ACD78B1B63506B00B962B5 /* XRAY-PhotoTests */ = {
 			isa = PBXGroup;
 			children = (
-				15ACD78E1B63506B00B962B5 /* XRAY_PhotoTests.swift */,
+				15F2A6641B7863B800D59FBC /* XRAY_PhotoTests.swift */,
 				15ACD78C1B63506B00B962B5 /* Supporting Files */,
 			);
 			path = "XRAY-PhotoTests";
@@ -215,9 +251,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C94D4E1B749FFC009F54BD /* Photo.swift in Sources */,
+				15FDD71C1B6C8EFB008A6E03 /* CategoryPickerViewController.swift in Sources */,
+				1545A5E71B6C7C9400921037 /* BodyLocationChooseViewController.swift in Sources */,
 				15ACD7991B63686700B962B5 /* PhotoShow.swift in Sources */,
-				15ACD77B1B63506B00B962B5 /* PhotoMain.swift in Sources */,
+				15751CD01B7DE0BF00C3ADA2 /* XrayImageViewController.swift in Sources */,
+				1565D6341B79B67600EA2EDF /* Functions.swift in Sources */,
+				1537FDDE1B88372900EE6648 /* EditNotesTableViewController.swift in Sources */,
+				15C94D4A1B749CC7009F54BD /* DataModel.xcdatamodeld in Sources */,
+				15FDD71A1B6C83AC008A6E03 /* AddPhotoDetailViewController.swift in Sources */,
+				15AD92191B79ABE300D453DC /* PhotoCell.swift in Sources */,
+				15B4BDCA1B78A515004CF454 /* GalleryViewController.swift in Sources */,
+				15B438F51B8598DB00E7AF02 /* NotesViewController.swift in Sources */,
 				15ACD7791B63506B00B962B5 /* AppDelegate.swift in Sources */,
+				15751CCE1B7DA75700C3ADA2 /* GalleryNavigation.swift in Sources */,
+				15C94D471B749367009F54BD /* PhotoMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15ACD78F1B63506B00B962B5 /* XRAY_PhotoTests.swift in Sources */,
+				15F2A6651B7863B800D59FBC /* XRAY_PhotoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +394,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "XRAY-Photo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "XRAY-Photo";
 			};
 			name = Debug;
 		};
@@ -356,7 +404,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "XRAY-Photo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "XRAY-Photo";
 			};
 			name = Release;
 		};
@@ -374,7 +422,7 @@
 				);
 				INFOPLIST_FILE = "XRAY-PhotoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "XRAY-PhotoTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XRAY-Photo.app/XRAY-Photo";
 			};
 			name = Debug;
@@ -389,7 +437,7 @@
 				);
 				INFOPLIST_FILE = "XRAY-PhotoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "XRAY-PhotoTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XRAY-Photo.app/XRAY-Photo";
 			};
 			name = Release;
@@ -413,6 +461,7 @@
 				15ACD7941B63506B00B962B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15ACD7951B63506B00B962B5 /* Build configuration list for PBXNativeTarget "XRAY-PhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -421,8 +470,22 @@
 				15ACD7971B63506B00B962B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15C94D481B749CC7009F54BD /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15C94D491B749CC7009F54BD /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 15C94D491B749CC7009F54BD /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 15ACD76B1B63506B00B962B5 /* Project object */;
 }
